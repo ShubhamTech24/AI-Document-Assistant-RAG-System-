@@ -166,11 +166,3 @@ http://localhost:8501
 **Shubham Vishwakarma**
 LinkedIn:
 [https://linkedin.com/in/shubham-vishwakarma-358332209](https://linkedin.com/in/shubham-vishwakarma-358332209)
-
----
-
-If you want, I can also give you **3 things that will make this project stand out on GitHub for AI jobs**:
-
-* professional **project banner**
-* **architecture diagram**
-* **demo screenshots** (very important for recruiters).
