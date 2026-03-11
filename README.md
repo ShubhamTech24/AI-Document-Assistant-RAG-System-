@@ -1,2 +1,176 @@
-# AI-Document-Assistant-RAG-System-
-Built an intelligent document QA system using Retrieval-Augmented Generation. Implemented semantic search with FAISS and HuggingFace embeddings, integrated Groq Llama-3 LLM for response generation, and developed an interactive Streamlit interface supporting multi-document upload, source citation, and conversational querying.
+# AI Document Assistant (RAG-Based Document QA System)
+
+AI Document Assistant is an intelligent **Retrieval-Augmented Generation (RAG)** application that allows users to upload documents and ask questions about their content. The system retrieves relevant information from the documents using **semantic search** and generates accurate responses using a **Large Language Model (LLM)**.
+
+This project demonstrates how modern AI systems combine **vector databases, embeddings, and LLMs** to build practical document intelligence tools.
+
+---
+
+# Key Features
+
+• Upload multiple **PDF and DOCX documents**
+• Ask questions about the uploaded documents
+• **Semantic search** using vector embeddings
+• **Retrieval-Augmented Generation (RAG)** architecture
+• AI-powered responses using **Groq Llama 3.1 model**
+• **Source citation** for retrieved document chunks
+• **ChatGPT-style conversational interface**
+• Persistent chat history during the session
+• Option to **download conversation history**
+
+---
+
+# Architecture
+
+The system follows a **RAG pipeline** to ensure accurate answers.
+
+User Question
+↓
+Vector Search (FAISS)
+↓
+Retrieve Relevant Document Chunks
+↓
+Combine Context + Question
+↓
+LLM (Groq Llama 3.1)
+↓
+Generated Answer with Sources
+
+---
+
+# Technologies Used
+
+### AI / Machine Learning
+
+* Retrieval-Augmented Generation (RAG)
+* HuggingFace Sentence Transformers
+* Groq Llama 3.1 LLM
+
+### Backend / AI Frameworks
+
+* LangChain
+* FAISS Vector Database
+
+### Document Processing
+
+* PyPDF
+* python-docx
+
+### Frontend
+
+* Streamlit
+
+### Other Tools
+
+* Python
+* dotenv
+
+---
+
+# Project Structure
+
+```
+AI-Document-Query-System
+│
+├── app.py              # Streamlit UI
+├── ingest.py           # Document processing & vector store creation
+├── query.py            # RAG retrieval + LLM generation
+├── requirements.txt
+├── .env
+└── vector_store
+```
+
+---
+
+# Installation
+
+Clone the repository
+
+```
+git clone https://github.com/yourusername/AI-Document-Assistant.git
+cd AI-Document-Assistant
+```
+
+Create virtual environment
+
+```
+python -m venv venv
+```
+
+Activate environment
+
+Windows
+
+```
+venv\Scripts\activate
+```
+
+Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+# Setup Environment Variables
+
+Create a `.env` file and add your **Groq API key**
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+You can get the key from:
+
+[https://console.groq.com/keys](https://console.groq.com/keys)
+
+---
+
+# Run the Application
+
+```
+streamlit run app.py
+```
+
+Then open the browser at
+
+```
+http://localhost:8501
+```
+
+---
+
+# Example Use Cases
+
+• Enterprise document search
+• Research paper question answering
+• Legal document analysis
+• Knowledge base assistant
+• Customer support documentation search
+
+---
+
+# Future Improvements
+
+• Streaming AI responses
+• PDF page preview for sources
+• Multi-user document workspace
+• Vector database upgrade (Pinecone / Weaviate)
+• Authentication system
+
+---
+
+# Author
+
+**Shubham Vishwakarma**
+LinkedIn:
+[https://linkedin.com/in/shubham-vishwakarma-358332209](https://linkedin.com/in/shubham-vishwakarma-358332209)
+
+---
+
+If you want, I can also give you **3 things that will make this project stand out on GitHub for AI jobs**:
+
+* professional **project banner**
+* **architecture diagram**
+* **demo screenshots** (very important for recruiters).
