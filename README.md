@@ -151,15 +151,6 @@ http://localhost:8501
 
 ---
 
-# Future Improvements
-
-• Streaming AI responses
-• PDF page preview for sources
-• Multi-user document workspace
-• Vector database upgrade (Pinecone / Weaviate)
-• Authentication system
-
----
 
 # Author
 
