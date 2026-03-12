@@ -151,6 +151,11 @@ http://localhost:8501
 
 ---
 
+# Snapshot of Project
+
+<img width="1864" height="808" alt="image" src="https://github.com/user-attachments/assets/7aafbe06-09b1-4afe-99f0-49aa5cdbcb84" />
+
+---
 
 # Author
 
